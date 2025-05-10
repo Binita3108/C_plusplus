@@ -1,0 +1,846 @@
+//Displays Hello world on the screen
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello world";
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main( )
+{ cout << "How are you?"; return 0; }
+
+
+
+#include <iostream>
+using namespace std;
+int main( )
+{
+cout << "Hello" << endl;
+cout << "world";
+return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main( )
+{
+cout << "Hello, everybody!" << endl;
+cout << "My name is YourName." << endl;
+cout << "Goodbye." << endl;
+return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+int main( )
+{
+cout << "Hello world" << endl;
+return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main( )
+{
+cout << 1 + 2 + 3 + 4 << endl;
+return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main( )
+{
+cout << 1 + 2 + 3 + 4 << endl;
+return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+int main( )
+{
+cout << "The product of 1 to 5 is " << 1 * 2 * 3 * 4 * 5 << endl;
+return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main( )
+{
+int age;
+cout << "Enter your age: ";
+cin >> age;
+cout << "That's a great age to be!" << endl;
+return 0;
+}
+
+
+
+//Inputs age and displays it with a message
+#include <iostream>
+using namespace std;
+int main( )
+{
+int age;
+cout << "Enter your age: ";
+cin >> age;
+cout << age << " is a great age to be!" << endl;
+return 0;
+}
+
+
+
+//Inputs age and displays age + 1 with a message
+#include <iostream>
+using namespace std;
+int main( )
+{
+int age;
+cout << "Enter your age: ";
+cin >> age;
+cout << "You will be " << age + 1 << " on your next birthday!" << endl;
+return 0;
+}
+
+
+//Calculates mother's age when you were born
+#include <iostream>
+using namespace std;
+int main( )
+{
+int momsAge, yourAge;
+cout << "Enter your mom's age and your age: ";
+cin >> momsAge >> yourAge;
+cout << "Your mom was " << momsAge - yourAge << " when you were born." << endl;
+return 0;
+}
+
+
+
+//Calculates and displays the quotient of two numbers
+#include <iostream>
+using namespace std;
+int main( )
+{
+int m, n;
+cout << "Enter two numbers: ";
+cin >> m >> n;
+cout << "The quotient of " << m << " and " << n << " is " << m / n << endl;
+return 0;
+}
+
+
+//Calculates the remainder of one number divided by another
+#include <iostream>
+using namespace std;
+int main( )
+{
+int m, n;
+cout << "Enter two numbers: ";
+cin >> m >> n;
+cout << "The remainder of " << m << " divided by " << n;
+cout << " is " << m % n << endl;
+return 0;
+}
+
+
+
+//Adds two times (specified as minutes and seconds) FINAL VERSION
+#include <iostream>
+using namespace std;
+int main( )
+{
+int mins1, mins2, secs1, secs2, totalMins, totalSecs;
+cout << "(Specify only minutes and seconds, separated by spaces)" << endl;
+cout << "Enter a period of time: ";
+cin >> mins1 >> secs1;
+cout << "Enter another one: ";
+cin >> mins2 >> secs2;
+totalMins = mins1 + mins2 + (secs1 + secs2) / 60;
+totalSecs = (secs1 + sec2) % 60;
+cout << "The total time is " << totalMins << " minutes";
+cout << " and " << totalSecs << " seconds" << endl;
+return 0;
+}
+
+
+
+//Tests unary increment operator
+#include <iostream>
+using namespace std;
+int main( )
+{
+int m, n;
+cout << "Enter a number: ";
+cin >> n;
+//postfix form
+m = n++;
+cout << "m is " << m << " and n is " << n << endl;
+return 0;
+}
+
+
+
+//Tests unary increment operator
+#include <iostream>
+using namespace std;
+int main( )
+{
+int m, n;
+cout << "Enter a number: ";
+cin >> n;
+//prefix form
+m = ++n;
+cout << "m is " << m << " and n is " << n << endl;
+return 0;
+}
+
+
+//The prefix form returns the value of the variable after it has been changed, whereas the postfix form returns its value before it was changed. If it is used in its postfix form, the operation returns the value of the variable before incrementing it. If it is used in its prefix form, it returns the value of the variable after incrementing it. 
+
+
+
+const int ConstantName = Value;
+
+
+
+//Calculates the sum of three floating point values
+#include <iostream>
+using namespace std;
+int main( )
+{
+float value1, value2, value3, sum;
+cout << "Enter three values" << endl;
+cin >> value1 >> value2 >> value3;
+sum = value1 + value2 + value3;
+cout << endl << "The sum is " << sum << endl;
+return 0;
+}
+
+
+
+//Calculates 14% VAT on a price
+#include <iostream>
+using namespace std;
+int main( )
+{
+const float VAT_RATE = 0.14;
+float price, vat;
+cout << "Enter the price ";
+cin >> price;
+vat = price * VAT_RATE;
+cout << endl << "VAT: " << vat << endl;
+return 0;
+}
+
+
+
+//Calculates the sum of three prices and adds 14% VAT
+#include <iostream>
+using namespace std;
+int main( )
+{
+const float VAT_RATE = 0.14;
+float price1, price2, price3, total, vat, vatIncl;
+//Input three prices
+cout << "Enter the prices of three items" << endl;
+cin >> price1 >> price2 >> price3;
+//Calculate total, VAT and total including VAT
+total = price1 + price2 + price3;
+vat = total * VAT_RATE;
+vatIncl = total + vat;
+cout << "The total price is " << vatIncl << endl;
+return 0;
+}
+
+
+
+
+average = float(mark1 + mark2 + mark3) / 3;
+explicit type conversion
+
+
+
+//Illustrates setting the precision
+#include <iostream>
+using namespace std;
+int main( )
+{
+float x;
+cout << "Enter a floating point number: ";
+cin >> x;
+cout.precision(4);
+cout << "The number is " << x << endl;
+return 0;
+}
+
+
+
+
+
+//Calculates the sum of three prices and adds 14% VAT
+#include <iostream>
+using namespace std;
+int main( )
+{
+const float VAT_RATE = 0.14;
+float price1, price2, price3, total, vat, vatIncl;
+//Input three prices
+cout << "Enter the prices of three items" << endl;
+cin >> price1 >> price2 >> price3;
+//Calculate total, VAT and total including VAT
+total = price1 + price2 + price3;
+vat = total * VAT_RATE;
+vatIncl = total + vat;
+//Output the total including VAT
+// the below statement: This statement prevents the computer from displaying  oating point numbers in scientific notation. They
+are only displayed infixed point notation.
+cout.setf(ios::fixed);
+cout.precision(2);
+cout << "The total price is R" << vatIncl << endl;
+return 0;
+}
+
+
+
+//Precision practice
+#include <iostream>
+using namespace std;
+int main( )
+{
+float a, b, c;
+cout << "Enter three floating point numbers:" << endl;
+cin >> a >> b >> c;
+cout.precision(5);
+cout << a << " " << b << " " << c << endl;
+cout << "Enter two more floating point numbers:" << endl;
+cin >> b >> a;
+cout.setf(ios::fixed);
+cout.precision(3);
+cout << a << " " << b << " " << c << endl;
+return 0;
+}
+
+
+
+//Inputs and displays a string
+#include <iostream>
+#include <string>
+using namespace std;
+int main( )
+{
+string name;
+cout << "Please enter your name: ";
+cin >> name;
+cout << "Hi " << name << ", pleased to meet you!" << endl;
+return 0;
+}
+
+
+
+
+//Inputs and displays a string
+#include <iostream>
+#include <string>
+using namespace std;
+int main( )
+{
+string name;
+cout << "Please enter your name: ";
+getline(cin, name, '\n');
+cout << "Hi " << name << ", pleased to meet you!" << endl;
+return 0;
+}
+
+
+//Illustrates the getline function
+#include <iostream>
+#include <string>
+using namespace std;
+int main( )
+{
+int n;
+string s;
+cout << "Enter a number: ";
+cin >> n;
+cout << "Enter a sentence: ";
+getline(cin, s,'\n');
+cout << "The number is " << n << endl;
+cout << "The sentence is " << s << endl;
+return 0;
+}
+
+
+
+//cin.get( ); demo
+#include <iostream>
+using namespace std;
+int main( )
+{
+int n;
+cout << "Enter a number: ";
+cin >> n;
+cin.get( );
+cout << "The number is " << n << endl;
+return 0;
+}
+
+
+
+
+//Illustrates how to use >> and getline in a program
+#include <iostream>
+#include <string>
+using namespace std;
+int main( )
+{
+int n;
+string s;
+cout << "Enter a number: ";
+cin >> n;
+cin.get( );
+cout << "Enter a sentence: ";
+getline(cin, s,'\n');
+cout << "The number is " << n << endl;
+cout << "The sentence is " << s << endl;
+return 0;
+}
+
+
+
+//Rearranges the title, first name and surname as input
+#include <string>
+#include <iostream>
+using namespace std;
+int main( )
+{
+string title, firstName, surname;
+//Input the name
+cout << "Enter the title: ";
+cin >> title;
+cout << "Enter the first name: ";
+cin >> firstName;
+cin.get( );
+cout << "Enter the surname: ";
+getline(cin, surname, '\n');
+//Output the rearranged name
+cout << "The rearranged name is ";
+cout << surname << ", " << title << ", " << firstName << endl;
+return 0;
+}
+
+
+
+fullName = surname + ", " + title + ", " + firstName;
+cout << "The rearranged name is " << fullName << endl;
+
+
+
+//Next letter in alphabetic order
+#include <iostream>
+using namespace std;
+int main( )
+{
+char letter, next;
+cout << "Enter a letter of the alphabet: ";
+cin >> letter;
+next = letter + 1;
+cout << "The next letter is " << next << endl;
+return 0;
+}
+
+
+remove variable next and change the
+output statement to:
+cout << "The next letter is " << letter + 1 << endl;
+
+
+
+//ASCII converter, implicit conversion
+#include <iostream>
+using namespace std;
+int main( )
+{
+char c;
+int i;
+cout << "Enter an integer: ";
+cin >> i;
+c = i;
+cout << i << " represents the character " << c << endl;
+return 0;
+}
+
+
+
+//ASCII converter, explicit conversion
+#include <iostream>
+using namespace std;
+int main( )
+{
+char c;
+int i;
+cout << "Enter an integer: ";
+cin >> i;
+cout << i << " represents the character " << char(i) << endl;
+return 0;
+}
+
+
+
+//Rotates an integer, The user is fooled into thinking that the program is only inputting a single value, when in fact it inputs two values, a character, and an integer.
+#include <iostream>
+using namespace std;
+int main( )
+{
+char c;
+int i;
+cout << "Enter an integer greater than 9: ";
+cin >> c >> i;
+cout << "Rotated it is " << i << c << endl;
+return 0;
+}
+
+
+
+//Rearranges the title, first name and surname as input
+#include <string>
+#include <iostream>
+using namespace std;
+int main( )
+{
+string title, firstName, surname, fullName;
+char initial;
+//Input the name
+cout << "Enter the title: ";
+cin >> title;
+cout << "Enter the first name: ";
+cin >> initial >> firstName; //trick!
+cin.get( );
+cout << "Enter the surname: ";
+getline(cin, surname, '\n');
+//Output the rearranged name
+fullName = surname + ", " + title + ", " + initial + ".";
+cout << "The rearranged name is " << fullName << endl;
+return 0;
+}
+
+
+
+
+//Displaying in columns
+#include <string>
+#include <iostream>
+using namespace std;
+int main( )
+{
+int x, y;
+cout << "Enter two numbers: ";
+cin >> x >> y;
+cout << x << ' ' << y << endl;
+return 0;
+}
+
+
+//Displaying in columns
+#include <string>
+#include <iostream>
+using namespace std;
+int main( )
+{
+int x, y;
+cout << "Enter two numbers: ";
+cin >> x >> y;
+cout << x << '\t' << y << endl;
+return 0;
+}
+
+
+
+cout << "Red" << '\t' << "Green" << '\t' << "Blue" << endl;
+cout << "Red\tGreen\tBlue" << endl;
+
+
+
+//Calculates fuel consumption, displayed in tabular columns
+#include <iostream>
+using namespace std;
+int main( )
+{
+float kilometres, litres, kmpl, lp100km;
+//Input kilometres and litres
+cout << "Enter the Kilometres: ";
+cin >> kilometres;
+cout << "Enter the litres: ";
+cin >> litres;
+//Calculate consumptions
+kmpl = kilometres / litres;
+lp100km = litres / (kilometres / 100);
+//Output consumptions in columns
+cout << "kms\tlitres\tksm/l\tl/100km" << endl;
+cout << kilometres << '\t' << litres << '\t';
+cout << kmpl << '\t' << lp100km << endl;
+return 0;
+}
+
+
+
+The format of a getline statement is
+getline(cin, StringVariable, Delimiter);
+where StringVariable is declared as string, and Delimiter is a singlecharacter, usually the newline character '\n'
+
+
+
+
+//Calculates tax on a salary
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    const float TAX_RATE = 0.40;
+    float salary, tax;
+
+    //Ask for and input the salary
+    cout << "Enter the employee's salary: ";
+    cin >> salary;
+
+    cout << endl; //To display a blank line
+
+    //Calculate and display the income tax
+    tax = salary * TAX_RATE;
+    cout << "The tax on a salary of R" << salary << " is R" << tax << endl;
+    return 0;
+}
+
+
+
+
+it asks for the salary and inputs it. Then it should check whether the salary is greater than 70 000.00. If so, the income tax must be calculated as 40%
+of the salary, otherwise it must be calculated as 30% of the salary.
+
+There are a number of correct solutions to this subproblem. One solution would be
+if (salary > 70000.00)
+tax = salary * 0.40;
+else
+tax = salary * 0.30;
+
+Or, if we use constants for the respective tax rates:
+if (salary > 70000.00)
+tax = salary * HIGH_TAX;
+else
+tax = salary * LOW_TAX;
+
+If we are not using constants, another possible solution is:
+if (salary > 70000.00)
+taxRate = 0.40;
+else
+taxRate = 0.30;
+tax = salary * taxRate;
+
+The general structure of an if statement is:
+if (Condition)
+Statement1;
+else
+Statement2;
+
+If the Condition is True, Statement1 is executed but if the Condition is False, Statement2 is executed.
+
+
+//Calculates tax on a salary
+#include <iostream>
+using namespace std;
+int main( )
+{
+const float HIGH_TAX = 0.40;
+const float LOW_TAX = 0.30;
+float salary, tax;
+//Ask for and input the salary
+cout << "Enter the employee's salary: ";
+cin >> salary;
+//Calculate and display the income tax
+if (salary > 70000.00)
+tax = salary * HIGH_TAX;
+else
+tax = salary * LOW_TAX;
+cout << endl << "The income tax on a salary of ";
+cout << salary << " is " << tax << endl;
+return 0;
+}
+
+
+
+The SupaDupa clothing store has a sale on. For any items less than R200.00, the standard discount is 10%.
+For items worth R200.00 or more, the discount must be decided individually by the store manager.
+Write a program that inputs the price of an item, calculates the discount, and then displays the old and new
+price in the form of a tag which can be printed and attached to the item.
+
+//Calculates discount on a price and displays a tag
+#include <iostream>
+using namespace std;
+int main( )
+{
+const float CRITICAL_VAL = 200.00;
+const int STANDARD_DISCOUNT = 10;
+int discount;
+float price, discountAmount, finalPrice;
+//Ask for and input the item's price
+cout << "Enter the price of the item: ";
+cin >> price;
+//Determine discount
+if (price >= CRITICAL_VAL)
+{
+cout << "Enter the special discount: ";
+cin >> discount;
+}
+else
+discount = STANDARD_DISCOUNT;
+//Calculate the final price by subtracting the discount
+discountAmount = price * discount / 100;
+finalPrice = price - discountAmount;
+//Display the tag
+cout << "===========" << endl;
+cout << "Was: R" << price << endl;
+cout << "Discount: " << discount << "%" << endl;
+cout << "Now: R" << finalPrice << endl;
+cout << "===========" << endl;
+return 0;
+}
+
+We could have written the above if statement as follows:
+//Calculate discount
+if (price > CRITICAL_VAL)
+{
+cout << "Enter special discount: ";
+cin >> discount;
+discountAmount = price * discount / 100;
+finalPrice = price - discountAmount;
+}
+else
+{
+discount = STANDARD_DISCOUNT;
+discountAmount = price * discount / 100;
+finalPrice = price - discountAmount;
+}
+
+Also, not all if statements necessarily need an else part. Here we initialise discount to STANDARD DISCOUNT and only change its value if necessary. In other words, if the price is less than the critical value, nothing further needs to be done, so the else part is
+omitted. Look at the following alternative to our
+solution:
+//Calculate discount
+discount = STANDARD_DISCOUNT;
+if (price >= CRITICAL_VAL)
+{
+cout << "Enter the special discount: ";
+cin >> discount;
+}
+
+
+
+
+
+We wrote the following program in a previous lesson. It inputs the prices of three items, adds them together,
+and nally adds the VAT to get the total price:
+//Calculates VAT on three prices
+#include <iostream>
+using namespace std;
+int main( )
+{
+const float VAT_RATE = 0.14;
+float price1, price2, price3, total, vat, vatIncl;
+cout << "Enter the prices of three items" << endl;
+cin >> price1 >> price2 >> price3;
+total = price1 + price2 + price3;
+vat = total * VAT_RATE;
+vatIncl = total + vat;
+cout << endl;
+cout << "The total price is " << vatIncl << endl;
+return 0;
+}
+
+Write a program that inputs the prices of zero or more items, and displays the total price with 14% VAT added. (Hint: The program will know when the last price has been input if a price of 0.00 is entered.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
