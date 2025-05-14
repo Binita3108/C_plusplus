@@ -10,10 +10,12 @@ int main()
 
 
 
+
 #include <iostream>
 using namespace std;
 int main( )
 { cout << "How are you?"; return 0; }
+
 
 
 
@@ -27,6 +29,7 @@ cout << "Hello" << endl;
 cout << "world";
 return 0;
 }
+
 
 
 
@@ -51,6 +54,17 @@ return 0;
 
 
 
+
+#include <iostream>
+using namespace std;
+int main( )
+{
+cout << 1 + 2 + 3 + 4 << endl;
+return 0;
+}
+
+
+
 #include <iostream>
 using namespace std;
 int main( )
@@ -60,14 +74,6 @@ return 0;
 }
 
 
-
-#include <iostream>
-using namespace std;
-int main( )
-{
-cout << 1 + 2 + 3 + 4 << endl;
-return 0;
-}
 
 
 #include <iostream>
@@ -77,6 +83,7 @@ int main( )
 cout << "The product of 1 to 5 is " << 1 * 2 * 3 * 4 * 5 << endl;
 return 0;
 }
+
 
 
 
