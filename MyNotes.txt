@@ -10,13 +10,10 @@ int main()
 
 
 
-
 #include <iostream>
 using namespace std;
 int main( )
 { cout << "How are you?"; return 0; }
-
-
 
 
 
@@ -396,6 +393,7 @@ return 0;
 
 
 
+
 //cin.get( ); demo
 #include <iostream>
 using namespace std;
@@ -432,6 +430,7 @@ return 0;
 
 
 
+
 //Rearranges the title, first name and surname as input
 #include <string>
 #include <iostream>
@@ -455,8 +454,10 @@ return 0;
 
 
 
+
 fullName = surname + ", " + title + ", " + firstName;
 cout << "The rearranged name is " << fullName << endl;
+
 
 
 
@@ -474,9 +475,12 @@ return 0;
 }
 
 
+
+
 remove variable next and change the
 output statement to:
 cout << "The next letter is " << letter + 1 << endl;
+
 
 
 
@@ -496,6 +500,7 @@ return 0;
 
 
 
+
 //ASCII converter, explicit conversion
 #include <iostream>
 using namespace std;
@@ -511,6 +516,7 @@ return 0;
 
 
 
+
 //Rotates an integer, The user is fooled into thinking that the program is only inputting a single value, when in fact it inputs two values, a character, and an integer.
 #include <iostream>
 using namespace std;
@@ -523,6 +529,7 @@ cin >> c >> i;
 cout << "Rotated it is " << i << c << endl;
 return 0;
 }
+
 
 
 
@@ -585,6 +592,7 @@ cout << "Red\tGreen\tBlue" << endl;
 
 
 
+
 //Calculates fuel consumption, displayed in tabular columns
 #include <iostream>
 using namespace std;
@@ -605,6 +613,7 @@ cout << kilometres << '\t' << litres << '\t';
 cout << kmpl << '\t' << lp100km << endl;
 return 0;
 }
+
 
 
 
@@ -669,7 +678,6 @@ Statement2;
 
 If the Condition is True, Statement1 is executed but if the Condition is False, Statement2 is executed.
 
-
 //Calculates tax on a salary
 #include <iostream>
 using namespace std;
@@ -690,6 +698,7 @@ cout << endl << "The income tax on a salary of ";
 cout << salary << " is " << tax << endl;
 return 0;
 }
+
 
 
 
@@ -760,7 +769,6 @@ cin >> discount;
 
 
 
-
 We wrote the following program in a previous lesson. It inputs the prices of three items, adds them together,
 and nally adds the VAT to get the total price:
 //Calculates VAT on three prices
@@ -779,8 +787,6 @@ cout << endl;
 cout << "The total price is " << vatIncl << endl;
 return 0;
 }
-
-Write a program that inputs the prices of zero or more items, and displays the total price with 14% VAT added. (Hint: The program will know when the last price has been input if a price of 0.00 is entered.)
 
 
 
