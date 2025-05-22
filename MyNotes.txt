@@ -111,6 +111,7 @@ return 0;
 
 
 
+
 //Inputs age and displays age + 1 with a message
 #include <iostream>
 using namespace std;
@@ -122,6 +123,8 @@ cin >> age;
 cout << "You will be " << age + 1 << " on your next birthday!" << endl;
 return 0;
 }
+
+
 
 
 //Calculates mother's age when you were born
@@ -138,6 +141,7 @@ return 0;
 
 
 
+
 //Calculates and displays the quotient of two numbers
 #include <iostream>
 using namespace std;
@@ -149,6 +153,8 @@ cin >> m >> n;
 cout << "The quotient of " << m << " and " << n << " is " << m / n << endl;
 return 0;
 }
+
+
 
 
 //Calculates the remainder of one number divided by another
@@ -163,6 +169,7 @@ cout << "The remainder of " << m << " divided by " << n;
 cout << " is " << m % n << endl;
 return 0;
 }
+
 
 
 
@@ -186,6 +193,7 @@ return 0;
 
 
 
+
 //Tests unary increment operator
 #include <iostream>
 using namespace std;
@@ -202,6 +210,7 @@ return 0;
 
 
 
+
 //Tests unary increment operator
 #include <iostream>
 using namespace std;
@@ -215,6 +224,8 @@ m = ++n;
 cout << "m is " << m << " and n is " << n << endl;
 return 0;
 }
+
+
 
 
 //The prefix form returns the value of the variable after it has been changed, whereas the postfix form returns its value before it was changed. If it is used in its postfix form, the operation returns the value of the variable before incrementing it. If it is used in its prefix form, it returns the value of the variable after incrementing it. 
@@ -240,6 +251,7 @@ return 0;
 
 
 
+
 //Calculates 14% VAT on a price
 #include <iostream>
 using namespace std;
@@ -253,6 +265,7 @@ vat = price * VAT_RATE;
 cout << endl << "VAT: " << vat << endl;
 return 0;
 }
+
 
 
 
@@ -276,7 +289,6 @@ return 0;
 
 
 
-
 average = float(mark1 + mark2 + mark3) / 3;
 explicit type conversion
 
@@ -294,7 +306,6 @@ cout.precision(4);
 cout << "The number is " << x << endl;
 return 0;
 }
-
 
 
 
@@ -324,6 +335,7 @@ return 0;
 
 
 
+
 //Precision practice
 #include <iostream>
 using namespace std;
@@ -341,6 +353,7 @@ cout.precision(3);
 cout << a << " " << b << " " << c << endl;
 return 0;
 }
+
 
 
 
@@ -372,6 +385,8 @@ getline(cin, name, '\n');
 cout << "Hi " << name << ", pleased to meet you!" << endl;
 return 0;
 }
+
+
 
 
 //Illustrates the getline function
@@ -454,10 +469,8 @@ return 0;
 
 
 
-
 fullName = surname + ", " + title + ", " + firstName;
 cout << "The rearranged name is " << fullName << endl;
-
 
 
 
