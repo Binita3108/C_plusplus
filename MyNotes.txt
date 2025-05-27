@@ -294,6 +294,7 @@ explicit type conversion
 
 
 
+
 //Illustrates setting the precision
 #include <iostream>
 using namespace std;
@@ -306,7 +307,6 @@ cout.precision(4);
 cout << "The number is " << x << endl;
 return 0;
 }
-
 
 
 
@@ -335,7 +335,6 @@ return 0;
 
 
 
-
 //Precision practice
 #include <iostream>
 using namespace std;
@@ -356,7 +355,6 @@ return 0;
 
 
 
-
 //Inputs and displays a string
 #include <iostream>
 #include <string>
@@ -369,7 +367,6 @@ cin >> name;
 cout << "Hi " << name << ", pleased to meet you!" << endl;
 return 0;
 }
-
 
 
 
