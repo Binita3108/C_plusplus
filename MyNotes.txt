@@ -570,7 +570,6 @@ return 0;
 
 
 
-
 //Displaying in columns
 #include <string>
 #include <iostream>
