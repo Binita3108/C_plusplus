@@ -9,12 +9,10 @@ int main()
 
 
 
-
 #include <iostream>
 using namespace std;
 int main( )
 { cout << "How are you?"; return 0; }
-
 
 
 
@@ -29,7 +27,6 @@ return 0;
 
 
 
-
 #include <iostream>
 using namespace std;
 int main( )
@@ -40,7 +37,6 @@ cout << "Goodbye." << endl;
 return 0;
 }
 
-
 #include <iostream>
 using namespace std;
 int main( )
@@ -48,7 +44,6 @@ int main( )
 cout << "Hello world" << endl;
 return 0;
 }
-
 
 
 
