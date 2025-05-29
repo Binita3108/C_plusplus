@@ -215,13 +215,10 @@ return 0;
 
 
 
-
 //The prefix form returns the value of the variable after it has been changed, whereas the postfix form returns its value before it was changed. If it is used in its postfix form, the operation returns the value of the variable before incrementing it. If it is used in its prefix form, it returns the value of the variable after incrementing it. 
 
 
-
 const int ConstantName = Value;
-
 
 
 //Calculates the sum of three floating point values
