@@ -104,7 +104,6 @@ return 0;
 
 
 
-
 //Inputs age and displays age + 1 with a message
 #include <iostream>
 using namespace std;
@@ -116,7 +115,6 @@ cin >> age;
 cout << "You will be " << age + 1 << " on your next birthday!" << endl;
 return 0;
 }
-
 
 
 
