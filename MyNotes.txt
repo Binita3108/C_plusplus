@@ -509,7 +509,6 @@ return 0;
 
 
 
-
 //Rotates an integer, The user is fooled into thinking that the program is only inputting a single value, when in fact it inputs two values, a character, and an integer.
 #include <iostream>
 using namespace std;
@@ -522,7 +521,6 @@ cin >> c >> i;
 cout << "Rotated it is " << i << c << endl;
 return 0;
 }
-
 
 
 
