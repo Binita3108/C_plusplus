@@ -691,7 +691,6 @@ return 0;
 
 
 
-
 The SupaDupa clothing store has a sale on. For any items less than R200.00, the standard discount is 10%.
 For items worth R200.00 or more, the discount must be decided individually by the store manager.
 Write a program that inputs the price of an item, calculates the discount, and then displays the old and new
@@ -755,7 +754,6 @@ if (price >= CRITICAL_VAL)
 cout << "Enter the special discount: ";
 cin >> discount;
 }
-
 
 
 
