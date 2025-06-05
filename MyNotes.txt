@@ -8,7 +8,6 @@ int main()
 }
 
 
-
 #include <iostream>
 using namespace std;
 int main( )
@@ -236,7 +235,6 @@ return 0;
 
 
 
-
 //Calculates 14% VAT on a price
 #include <iostream>
 using namespace std;
@@ -250,7 +248,6 @@ vat = price * VAT_RATE;
 cout << endl << "VAT: " << vat << endl;
 return 0;
 }
-
 
 
 
