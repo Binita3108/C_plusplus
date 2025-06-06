@@ -386,7 +386,6 @@ return 0;
 
 
 
-
 //cin.get( ); demo
 #include <iostream>
 using namespace std;
@@ -423,7 +422,6 @@ return 0;
 
 
 
-
 //Rearranges the title, first name and surname as input
 #include <string>
 #include <iostream>
@@ -446,7 +444,6 @@ return 0;
 }
 
 
-
 fullName = surname + ", " + title + ", " + firstName;
 cout << "The rearranged name is " << fullName << endl;
 
@@ -467,11 +464,9 @@ return 0;
 
 
 
-
 remove variable next and change the
 output statement to:
 cout << "The next letter is " << letter + 1 << endl;
-
 
 
 
@@ -488,7 +483,6 @@ c = i;
 cout << i << " represents the character " << c << endl;
 return 0;
 }
-
 
 
 
