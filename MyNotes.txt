@@ -8,10 +8,12 @@ int main()
 }
 
 
+
 #include <iostream>
 using namespace std;
 int main( )
 { cout << "How are you?"; return 0; }
+
 
 
 #include <iostream>
@@ -33,6 +35,7 @@ cout << "My name is YourName." << endl;
 cout << "Goodbye." << endl;
 return 0;
 }
+
 
 #include <iostream>
 using namespace std;
@@ -61,7 +64,6 @@ int main( )
 cout << 1 + 2 + 3 + 4 << endl;
 return 0;
 }
-
 
 
 #include <iostream>
